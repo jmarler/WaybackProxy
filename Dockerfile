@@ -24,7 +24,5 @@ ADD startup.sh /
 ADD lrudict.py /
 ADD waybackproxy.py /
 
-EXPOSE 8080
-
 CMD [ "sh" , "/startup.sh" ]
 
